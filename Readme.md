@@ -21,7 +21,7 @@
 
 
 ## **Introduccion:**
-Los siniestros viales representan un desafío global en términos de seguridad pública y salud, dejan 1,3 millones de personas muertas y 50 millones más heridas de gravedad en el mundo cada año. Los accidentes de tránsito son una de las principales causas de muerte en todos los grupos etarios.Es una de las principales causas de muertes en Argentina segun informes del ``Sistema Nacional de Información Criminal (SNIC)``. Estos pueden tener diversas causas tales como colisiones entre automóviles, motocicletas, bicicletas o peatones, atropellos, choques con objetos fijos o caídas de vehículos. Este proyecto tiene como objetivo realizar un análisis detallado de las causas de los siniestros viales en  Ciudad Autonoma de Buenos Aires (CABA) entre los años 2016-2022. Al entender las causas subyacentes, podemos desarrollar estrategias efectivas para mejorar la seguridad vial y reducir las consecuencias devastadoras de estos incidentes.
+Los siniestros viales representan un desafío global en términos de seguridad pública y salud, dejan 1,3 millones de personas muertas y 50 millones más heridas de gravedad en el mundo cada año. Los accidentes de tránsito son una de las principales causas de muerte en todos los grupos etarios.Es una de las principales causas de muertes en Argentina segun informes del ``Sistema Nacional de Información Criminal (SNIC)``. Estos pueden tener diversas causas tales como colisiones entre automóviles, motocicletas, bicicletas o peatones, atropellos, choques con objetos fijos o caídas de vehículos. Este proyecto tiene como objetivo realizar un análisis detallado de las causas de los siniestros viales en Ciudad Autonoma de Buenos Aires (CABA) entre los años 2016-2022. Al entender las causas subyacentes, podemos desarrollar estrategias efectivas para mejorar la seguridad vial y reducir las consecuencias devastadoras de estos incidentes.
 
 
 ## **Contexto y Rol a desarrollar**
@@ -39,20 +39,20 @@ En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Aun
 Algunas de las principales causas de muertes en hechos de tránsito señaladas por la entidad, continúan siendo el exceso de velocidad, las bebidas alcohólicas y la falta de uso del cinturón de seguridad, entre otras. 
 
 Buenos Aires es la capital y ciudad más poblada de la República Argentina. Sus nombres oficiales son Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires (CABA). Oficialmente la ciudad se encuentra dividida en 15 comunas que agrupan a 48 barrios.
-La población de la ciudad, según el Censo de 2022([Indec](https://www.indec.gob.ar/ftp/cuadros/poblacion/cnphv2022_resultados_provisionales.pdf)), es de 3 120 612 habitantes.La superficie de la Ciudad es algo superior a los 200 km2 y su perímetro, 60 km.
+La población de la ciudad, según el Censo de 2022([**Indec**](https://www.indec.gob.ar/ftp/cuadros/poblacion/cnphv2022_resultados_provisionales.pdf)), es de 3 120 612 habitantes. La superficie de la Ciudad es algo superior a los 200 km2 y su perímetro, 60 km.
 
-El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales
+El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de análisis de datos, con el fin de generar información que les permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales
 
 ## **Fuente de Datos**
-El dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021, se encuentra en formato xlsx y contiene dos hojas llamadas: **`hechos`**  y **`víctimas`**. Asimismo, observarán que incluye otras dos hojas adicionales de diccionarios de datos.
+El dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021, se encuentra en formato xlsx y contiene dos hojas llamadas: **`hechos`** y **`víctimas`**. Asimismo, observarán que incluye otras dos hojas adicionales de diccionarios de datos.
 
-Los datos utilizados en este proyecto provienen del sitio web oficial de [Ciudad de Buenos Aires](https://www.buenosaires.gob.ar/datosabiertos).
+Los datos utilizados en este proyecto provienen del sitio web oficial de [**Ciudad de Buenos Aires**](https://www.buenosaires.gob.ar/datosabiertos).
 
 ## **ETL Y EDA**
 
 `ETL` (Extract, Transform, Load)
 
-Se realizó un proceso de extracción, transformación y carga de los datos (ETL) y un análisis exploratorio exahustivo primario (EDA), primero para los datos de "HECHOS" y luego para los de "VÍCTIMAS", donde se estandarizaron nombres de las variables, se analizaron nulos y duplicados de los registros, se eliminaron columnas redundantes se imputaron valores faltantes, entre otras tareas. 
+Se realizó un proceso de extracción, transformación y carga de los datos (ETL) y un análisis exploratorio exhaustivo primario (EDA), primero para los datos de "HECHOS" y luego para los de "VÍCTIMAS", donde se estandarizaron nombres de las variables, se analizaron nulos y duplicados de los registros, se eliminaron columnas redundantes se imputaron valores faltantes, entre otras tareas. 
 
 Los procesos realizados en el ETL se encuentran en los archivo [**Sineistros_Viales**](Sineistros_Viales.ipynb), [**Victimas_Homicidios**](Victimas_Homicidios.ipynb), [**Hechos_Homicidios**](Hechos_Homicidios.ipynb).
 
@@ -60,9 +60,9 @@ Los procesos realizados en el ETL se encuentran en los archivo [**Sineistros_Via
 
 Una vez finalizado este proceso de ETL se genero un Dataframe denominado [**EDA**](Eda.ipynb) que contiene todos los datos necesarios para su analisis posterior.
 
-El Analisis consiste en : 
+El Analisis consiste en: 
 
-- **Ingesta de datos**:
+- **Ingesta de datos**
 
 - **Inspección preliminar**
 
@@ -83,7 +83,7 @@ El Analisis consiste en :
 
 ### **Distribución de Víctimas por Año**
 
-<img src ="Imagen\Distribución de Víctimas por Año.png">
+<img src ="Imagen\Distribución de Víctimas por Año.png" >
 
 **Observaciones:**
 
@@ -93,10 +93,10 @@ El Analisis consiste en :
 
 ### **Relación entre Número de Víctimas por Horas y Días de la Semana**
 
-<img src ="Imagen\Relación entre Número de Víctimas por Horas y Días de la Semana.png">
+<img src ="Imagen\Relación entre Número de Víctimas por Horas y Días de la Semana.png" width="1000px" height="450px">
 
 **Observacion:**
-- Se observa una alta relacion entrelos dias Domingos entre el rango horario de las (04:00 - 07:00), Sabados entre el rango horario de las (06:00 - 08:00), el dia Jueves se observa un pico entre (04:00 05:00) como el dia viernes a las horas(11:00 y 17:00) como se vio anteriormente que estos dias y a esas horas son los que se registras mayores Numeros de Incidentes. Sepuede relacionar con la horaria de salida de zonas de entretenimiento y con el horario de inicio del dia de otros ciudadanos.
+- Se observa una alta relacion entre los dias Domingos entre el rango horario de las (04:00 - 07:00), Sabados entre el rango horario de las (06:00 - 08:00), el dia Jueves se observa un pico entre (04:00 05:00) como el dia viernes a las horas(11:00 y 17:00) como se vio anteriormente que estos dias y a esas horas son los que se registras mayores Numeros de Incidentes. Se puede relacionar con la horaria de salida de zonas de entretenimiento y con el horario de inicio del dia de otros ciudadanos.
 
 ### **Correlación entre Poblacion, Densidad_Poblacion, N°_Victimas**
 
@@ -116,7 +116,7 @@ El Analisis consiste en :
 
 ### **Distribución del Tipo de Calle en los Siniestros**
 
-<img src ="Imagen\Distribución del Tipo de Calle en los Siniestros.png">
+<img src ="Imagen\Distribución del Tipo de Calle en los Siniestros.png" width="950px" height="450px">
 
 ***Observaciones:**
 
@@ -126,11 +126,11 @@ Se agreago Av Gral PAZ a autopista, como figura en la pagina oficial de la Ciuda
 
 ### **Mapa con numero de Victimas CABA**
 
-<img src ="Imagen\Mapa con numero de Victimas CABA.png">
+<img src ="Imagen\Mapa con numero de Victimas CABA.png" width="950px" height="450px">
 
 ***Observaciones:**
 
-Se puede accder al mapa a traves de [Mapa](mapa_incidentes_buenos_aires.html)
+Se puede acceder al mapa a traves de [**Mapa**](mapa_incidentes_buenos_aires.html)
 
 
 ### **Distribución del Rol de las Víctimas**
@@ -146,11 +146,25 @@ Se puede accder al mapa a traves de [Mapa](mapa_incidentes_buenos_aires.html)
 
 `Dashboard`
 
-Debe ser funcional y coherente con el storytelling. El dasbhoard tiene que incluir **filtros**, permitiendo explorar detalladamente los datos con la selección de cada uno de ellos. Es decir, es indispensable que sea **interactivo**. También, se espera que el diseño que implementen facilite la interpretación de la información y su análisis, siendo importante, para ello, la claridad en la presentación de los datos, aspectos inherentes a la esteticidad, elección coherente de los gráficos según las variables a visualizar, entre otros ítems. 
+Ingresar al [**Dashboard Interactivo**](Data\Siniestros_Viales.pbix) , creado en Power bi, para abordar los datos y hacer Analisis . De manera que se puedas consultar los datos en diversos Graficos. 
 
-`Análisis` :warning:
+***<img src ="Imagen\Portada.PNG" width="950px" height="450px">***
 
-No se considerará solamente la producción de gráficos con datos -dashboard-, sino también los análisis y conclusiones que puedan extraer a partir de ellos.
+
+***<img src ="Imagen\General.PNG" width="950px" height="450px">***
+
+
+***<img src ="Imagen\KPI's.PNG" width="950px" height="450px">***
+
+
+***<img src ="Imagen\Victmas.PNG" width="950px" height="450px">***
+
+
+**<img src ="Imagen\Ubicacion.PNG" width="950px" height="450px">***
+
+
+***<img src ="Imagen\Temporal.PNG" width="950px" height="450px">***
+
 
 `KPIs`
 
@@ -172,6 +186,9 @@ Los dos KPIs propuestos son:
     Definimos a la **Cantidad siniestros viales que ocurren en Avenidas** como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que ocurrieron en Avenidas en un determinado periodo temporal.
     Su fórmula para medir la evolución de los accidentes mortales que ocurrieron en Avenidas es: (Número de accidentes mortales que ocurrieron en Avenidas en el año anterior - Número de accidentes mortales que ocurrieron en Avenidas en el año actual) / (Número de accidentes mortales que ocurrieron en Avenidas en el año anterior) * 100
  
+<img src ="Imagen\KPI'S_ corte.PNG">
+
+
 
 ## **Conclusiones**
 
@@ -212,18 +229,18 @@ Basándonos en las observaciones y datos analizados sobre los Siniestros Viales,
 
 - Combinaciones frecuentes: La combinación más frecuente es "PEATON-PASAJEROS" seguida de cerca por "MOTO-AUTO" y "MOTO-CARGAS". Estas combinaciones sugieren situaciones en las que peatones interactúan con pasajeros, motocicletas con automóviles, y motocicletas con vehículos de carga.
 
-- La mayoria de victimas que sufren Siniestros Viales son las motos, seguido de peatones, lo que nos indica que en la movilidad sin carroceria es mas peligroso el transito por la ciuda.
+- La mayoria de victimas que sufren Siniestros Viales son las motos, seguido de peatones, lo que nos indica que en la movilidad sin carroceria es mas peligroso el transito por la ciudad.
 
 `Ubicacion geografica:`
 
 - Las 5 primeras comunas con mas incidentes son la 1, 4, 9, 8 y 7.
 - Los siniestros viales ocurren con una gran frecuencia en Avenidas, superando a la suma de calle y autopistas juntas.
-Se agreago Av Gral PAZ a autopista, como figura en la pagina oficial de la Ciudad de Buenos Aires.
+- Se agrego Av Gral PAZ a autopista, como figura en la pagina oficial de la Ciudad de Buenos Aires.
 
 
 ## **Medidas**
 
-- La identificación de años y meses críticos (2018 y diciembre) proporciona oportunidades para implementar intervenciones específicas durante esos períodos, los culaes se involucran las festividades.
+- La identificación de años y meses críticos (2018 y diciembre) proporciona oportunidades para implementar intervenciones específicas durante esos períodos, los cuales se involucran las festividades.
 
 - La identificación del perfil de las víctimas (edad promedio, predominio masculino) permite dirigir estrategias de concientización y educación hacia grupos demográficos específicos.
 
