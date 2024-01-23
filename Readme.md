@@ -44,7 +44,10 @@ La población de la ciudad, según el Censo de 2022([**Indec**](https://www.inde
 El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de análisis de datos, con el fin de generar información que les permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales
 
 ## **Fuente de Datos**
-El dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021, se encuentra en formato xlsx y contiene dos hojas llamadas: **`hechos`** y **`víctimas`**. Asimismo, observarán que incluye otras dos hojas adicionales de diccionarios de datos.
+El dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021, se encuentra en formato xlsx y contiene dos hojas llamadas: **`hechos`** y **`víctimas`**. Asimismo, observarán que incluye otras dos hojas adicionales de diccionarios de datos. 
+
+Se agrega un Anexo que contine 2 archivos de tipo .PDF , que continen las definiciones para una mejor compresion de los datos.
+Los datos se encuentran en el siguiente [**Diccionarios Homicidios**](Anexos\NOTAS_HOMICIDIOS_SINIESTRO_VIAL.pdf) y [**Diccionarios Lesiones**](Anexos\NOTAS_LESIONES_SINIESTRO_VIAL.pdf)
 
 Los datos utilizados en este proyecto provienen del sitio web oficial de [**Ciudad de Buenos Aires**](https://www.buenosaires.gob.ar/datosabiertos).
 
@@ -261,7 +264,7 @@ El enfoque en las víctimas de motocicletas y peatones indica la necesidad de me
 
 ### Blas Fernando Pacios
 
-[![LinkedIn](Imagen\linkedin.png)](https://www.linkedin.com/in/blas-fernando-pacios-14a46a280/) [![WhatsApp](Imagen\whatsapp.png)](https://wa.me/5493815467488)
+[![LinkedIn](Imagen/linkedin.png)](https://www.linkedin.com/in/blas-fernando-pacios-14a46a280/) [![WhatsApp](Imagen/whatsapp.png)](https://wa.me/5493815467488)
 
 ## **Tecnologías utilizadas**
 
